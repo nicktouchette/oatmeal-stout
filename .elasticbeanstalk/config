@@ -1,0 +1,13 @@
+[global]
+ApplicationName=oatmeal-stout
+DevToolsEndpoint=git.elasticbeanstalk.us-east-1.amazonaws.com
+EnvironmentName=oatmeal-stout-env
+EnvironmentTier=WebServer::Standard::1.0
+EnvironmentType=SingleInstance
+InstanceProfileName=aws-elasticbeanstalk-ec2-role
+OptionSettingFile=C:\Users\Nick\Desktop\oatmeal-stout\oatmeal-stout\.elasticbeanstalk\optionsettings.oatmeal-stout-env
+RdsEnabled=No
+Region=us-east-1
+ServiceEndpoint=https://elasticbeanstalk.us-east-1.amazonaws.com
+SolutionStack=64bit Amazon Linux 2014.03 v1.0.9 running Ruby 2.1 (Puma)
+
