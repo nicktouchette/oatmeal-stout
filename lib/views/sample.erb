@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Oatmeal Stout</title>
+    <link type="text/css" rel="stylesheet" href="css/oatmeal-style.css">
+  </head>
+  <body>
+    <div class="header"><b>Header</b></div>
+    <div class="container">
+      <% @names.each do |user| %>
+        <div class="infobox">
+            <div class="infotext"><b>Ingredients</b></div>
+          <%= user %>
+        </div>
+      <% end %>
+    </div>
+  </body>
+</html>
+
