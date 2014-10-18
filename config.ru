@@ -1,2 +1,2 @@
-require './oatmeal-stout'
+require './lib/oatmeal-stout'
 run Sinatra::Application
