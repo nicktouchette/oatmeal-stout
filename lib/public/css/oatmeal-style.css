@@ -10,8 +10,7 @@ and open the template in the editor.
 
 .container {
   width: 70%;
-  position: absolute;
-  left: 15%;
+  margin: 0 auto;
   padding: 5px;
   max-width: 930px;
   display: table;
