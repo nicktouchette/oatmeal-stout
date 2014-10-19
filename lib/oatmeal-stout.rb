@@ -50,7 +50,7 @@ get '/plain-text' do
 end
 
 get '/' do
-  'Hello World!'
+  redirect '/request'
 end
 
 get %r{/hello/([\w]+)} do
